@@ -1,3 +1,5 @@
+# tests/test_validator.py
+
 import os
 import json
 from cli.validator import validate_safety_checks
@@ -45,4 +47,3 @@ def test_invalid_json():
     file = write_temp_file(invalid_json)
     assert "Fail" in validate_safety_checks(file)
     os.remove(file)
-    

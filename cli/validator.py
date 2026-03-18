@@ -1,4 +1,4 @@
-# validator.py
+# cli/validator.py
 
 """
 Core logic for Beams & Brackets Safety Validator CLI.
