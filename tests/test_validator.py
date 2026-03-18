@@ -45,3 +45,4 @@ def test_invalid_json():
     file = write_temp_file(invalid_json)
     assert "Fail" in validate_safety_checks(file)
     os.remove(file)
+    
