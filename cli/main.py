@@ -3,7 +3,7 @@
 # Entry point for the CLI tool.
 
 import click
-from validator import validate_safety_checks
+from .validator import validate_safety_checks
 
 
 @click.command()
